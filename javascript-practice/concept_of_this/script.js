@@ -33,5 +33,7 @@ function addData(name, age, id) {
   this.id = id;
   return this;
 }
-let result = addData("ahmad", 1233, 444);
-console.log(result);
+let s1 = new addData("ahmad", 1233, 444);
+let s2 = new addData("ahmad", 333333, 444);
+console.log(s1);
+console.log(s2);
